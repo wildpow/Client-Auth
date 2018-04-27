@@ -14,7 +14,7 @@ export default ComposedComponent => {
       return (
         <div>
           {this.props.authenticated ? (
-            <ComposedComponent users={this.props.users}/>
+            <ComposedComponent users={this.props.users}
           ) : null}
         </div>
       );
